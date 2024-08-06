@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-section {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-label {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: #a0f0bb;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #eaffea;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+.contact-header h2 {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.contact-header p {
+    color: #666;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.contact-buttons {
+    margin: 40px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #28a745;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.about-us {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.contact-info {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contact-info .info-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact-info .icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #8d5459;
+}
+
+.contact-info span {
+    font-weight: bold;
+}
+
+.contact-info a, .contact-info address {
+    display: block;
+    color: #666;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-icon {
+    font-family: FontAwesome;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #28a745;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.send-btn {
+    background-color: #28a745;
+    width: 100%;
+    margin-top: 10px;
+}
